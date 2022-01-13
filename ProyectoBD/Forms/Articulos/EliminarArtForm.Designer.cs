@@ -91,7 +91,8 @@ namespace ProyectoBD.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(887, 561);
+            this.BackColor = System.Drawing.Color.PowderBlue;
+            this.ClientSize = new System.Drawing.Size(900, 561);
             this.Controls.Add(this.dgvArticulos);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.eliminar_btn);

@@ -154,8 +154,8 @@ namespace ProyectoBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1094, 597);
+            this.BackColor = System.Drawing.Color.PowderBlue;
+            this.ClientSize = new System.Drawing.Size(1095, 597);
             this.Controls.Add(this.cantidad_tbx);
             this.Controls.Add(this.cantidad);
             this.Controls.Add(this.agregarArt_btn);

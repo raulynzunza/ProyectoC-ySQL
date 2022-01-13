@@ -59,6 +59,7 @@ namespace ProyectoBD
             // 
             // panelInfo
             // 
+            this.panelInfo.BackColor = System.Drawing.Color.PowderBlue;
             this.panelInfo.Controls.Add(this.eliminarArt_btn);
             this.panelInfo.Controls.Add(this.modificarArt_btn);
             this.panelInfo.Controls.Add(this.verArt_btn);
@@ -92,6 +93,7 @@ namespace ProyectoBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(1097, 600);
             this.ControlBox = false;
             this.Controls.Add(this.panelInfo);

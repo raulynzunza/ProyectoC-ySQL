@@ -28,7 +28,7 @@ namespace ProyectoBD.Forms
                  {
                     
                     metodo.Modificar(nombre_tbx.Text, Convert.ToDouble(precio_tbx.Text), Convert.ToInt32(codigo_tbx.Text), descripcion_tbx.Text,Convert.ToInt32(cantidad_tbx.Text), "ARTICULO");
-                    string consulta = "SELECT codigo_art AS 'Codigo de articulo',nombre AS 'Nombre de articulo',precio AS 'Precio' FROM ARTICULO ORDER BY codigo_art ASC";
+                    string consulta = "SELECT * FROM VISTA4";
                     SqlDataAdapter adaptador = new SqlDataAdapter(consulta, conexion.Conectar());
                     DataTable tabla = new DataTable();
                     adaptador.Fill(tabla);

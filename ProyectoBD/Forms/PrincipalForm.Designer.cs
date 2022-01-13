@@ -42,7 +42,7 @@ namespace ProyectoBD
             // 
             // panelInfo
             // 
-            this.panelInfo.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panelInfo.BackColor = System.Drawing.Color.PowderBlue;
             this.panelInfo.Location = new System.Drawing.Point(202, 21);
             this.panelInfo.Name = "panelInfo";
             this.panelInfo.Size = new System.Drawing.Size(1097, 624);
