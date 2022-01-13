@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76D4AB0D-215E-4491-970B-870363126C94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoBD</RootNamespace>
+    <AssemblyName>ProyectoBD</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.4\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Articulos\Metodos.cs" />
+    <Compile Include="Forms\Articulos\ArticulosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Articulos\ArticulosForm.Designer.cs">
+      <DependentUpon>ArticulosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Conexion.cs" />
+    <Compile Include="Forms\Clientes\ClientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clientes\ClientesForm.Designer.cs">
+      <DependentUpon>ClientesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Articulos\EliminarArtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Articulos\EliminarArtForm.Designer.cs">
+      <DependentUpon>EliminarArtForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Articulos\IngresoArticulosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Articulos\IngresoArticulosForm.Designer.cs">
+      <DependentUpon>IngresoArticulosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clientes\EliminarClientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clientes\EliminarClientesForm.Designer.cs">
+      <DependentUpon>EliminarClientesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clientes\IngresoClientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clientes\IngresoClientesForm.Designer.cs">
+      <DependentUpon>IngresoClientesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clientes\metodosClientes.cs" />
+    <Compile Include="Forms\Clientes\ModificarClientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clientes\ModificarClientesForm.Designer.cs">
+      <DependentUpon>ModificarClientesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clientes\VerClientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clientes\VerClientesForm.Designer.cs">
+      <DependentUpon>VerClientesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Locales\CancelarLocalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Locales\CancelarLocalesForm.Designer.cs">
+      <DependentUpon>CancelarLocalesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Locales\IngresarLocalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Locales\IngresarLocalesForm.Designer.cs">
+      <DependentUpon>IngresarLocalesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Locales\LocalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Locales\LocalesForm.Designer.cs">
+      <DependentUpon>LocalesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Articulos\ModificarArtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Articulos\ModificarArtForm.Designer.cs">
+      <DependentUpon>ModificarArtForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Locales\metodosLocales.cs" />
+    <Compile Include="Forms\Locales\ModificarLocalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Locales\ModificarLocalesForm.Designer.cs">
+      <DependentUpon>ModificarLocalesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Locales\VerLocalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Locales\VerLocalesForm.Designer.cs">
+      <DependentUpon>VerLocalesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pedidos\CancelarPedidoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pedidos\CancelarPedidoForm.Designer.cs">
+      <DependentUpon>CancelarPedidoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pedidos\IngresarPedidoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pedidos\IngresarPedidoForm.Designer.cs">
+      <DependentUpon>IngresarPedidoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pedidos\metodosPedidos.cs" />
+    <Compile Include="Forms\Pedidos\ModificarPedidoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pedidos\ModificarPedidoForm.Designer.cs">
+      <DependentUpon>ModificarPedidoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pedidos\PedidosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pedidos\PedidosForm.Designer.cs">
+      <DependentUpon>PedidosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pedidos\VerPedidoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pedidos\VerPedidoForm.Designer.cs">
+      <DependentUpon>VerPedidoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PrincipalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrincipalForm.Designer.cs">
+      <DependentUpon>PrincipalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transporte\EliminarTransporteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transporte\EliminarTransporteForm.Designer.cs">
+      <DependentUpon>EliminarTransporteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transporte\IngresarTransporteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transporte\IngresarTransporteForm.Designer.cs">
+      <DependentUpon>IngresarTransporteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transporte\metodosTransporte.cs" />
+    <Compile Include="Forms\Transporte\ModificarTransporteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transporte\ModificarTransporteForm.Designer.cs">
+      <DependentUpon>ModificarTransporteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transporte\VerTransporteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transporte\VerTransporteForm.Designer.cs">
+      <DependentUpon>VerTransporteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\Transporte\TransportesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transporte\TransportesForm.Designer.cs">
+      <DependentUpon>TransportesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Articulos\verArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Articulos\verArt.Designer.cs">
+      <DependentUpon>verArt.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Articulos\ArticulosForm.resx">
+      <DependentUpon>ArticulosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clientes\ClientesForm.resx">
+      <DependentUpon>ClientesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Articulos\EliminarArtForm.resx">
+      <DependentUpon>EliminarArtForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Articulos\IngresoArticulosForm.resx">
+      <DependentUpon>IngresoArticulosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clientes\EliminarClientesForm.resx">
+      <DependentUpon>EliminarClientesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clientes\IngresoClientesForm.resx">
+      <DependentUpon>IngresoClientesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clientes\ModificarClientesForm.resx">
+      <DependentUpon>ModificarClientesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clientes\VerClientesForm.resx">
+      <DependentUpon>VerClientesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Locales\CancelarLocalesForm.resx">
+      <DependentUpon>CancelarLocalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Locales\IngresarLocalesForm.resx">
+      <DependentUpon>IngresarLocalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Locales\LocalesForm.resx">
+      <DependentUpon>LocalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Articulos\ModificarArtForm.resx">
+      <DependentUpon>ModificarArtForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Locales\ModificarLocalesForm.resx">
+      <DependentUpon>ModificarLocalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Locales\VerLocalesForm.resx">
+      <DependentUpon>VerLocalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pedidos\CancelarPedidoForm.resx">
+      <DependentUpon>CancelarPedidoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pedidos\IngresarPedidoForm.resx">
+      <DependentUpon>IngresarPedidoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pedidos\ModificarPedidoForm.resx">
+      <DependentUpon>ModificarPedidoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pedidos\PedidosForm.resx">
+      <DependentUpon>PedidosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pedidos\VerPedidoForm.resx">
+      <DependentUpon>VerPedidoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrincipalForm.resx">
+      <DependentUpon>PrincipalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transporte\EliminarTransporteForm.resx">
+      <DependentUpon>EliminarTransporteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transporte\IngresarTransporteForm.resx">
+      <DependentUpon>IngresarTransporteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transporte\ModificarTransporteForm.resx">
+      <DependentUpon>ModificarTransporteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transporte\VerTransporteForm.resx">
+      <DependentUpon>VerTransporteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Transporte\TransportesForm.resx">
+      <DependentUpon>TransportesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Articulos\verArt.resx">
+      <DependentUpon>verArt.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
