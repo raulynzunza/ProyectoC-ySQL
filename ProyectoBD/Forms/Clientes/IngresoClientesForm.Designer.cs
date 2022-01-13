@@ -191,6 +191,7 @@ namespace ProyectoBD.Forms.Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(911, 549);
             this.Controls.Add(this.agregarCliente_btn);
             this.Controls.Add(this.apellidoPaterno_tbx);
@@ -208,6 +209,7 @@ namespace ProyectoBD.Forms.Clientes
             this.Controls.Add(this.codigo_tbx);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "IngresoClientesForm";
             this.Text = "IngresoClientesForm";

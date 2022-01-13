@@ -42,7 +42,7 @@ namespace ProyectoBD
             // 
             // panelInfo
             // 
-            this.panelInfo.BackColor = System.Drawing.Color.PowderBlue;
+            this.panelInfo.BackColor = System.Drawing.Color.MidnightBlue;
             this.panelInfo.Location = new System.Drawing.Point(202, 21);
             this.panelInfo.Name = "panelInfo";
             this.panelInfo.Size = new System.Drawing.Size(1097, 624);
@@ -50,7 +50,7 @@ namespace ProyectoBD
             // 
             // articulos_btn
             // 
-            this.articulos_btn.BackColor = System.Drawing.Color.PowderBlue;
+            this.articulos_btn.BackColor = System.Drawing.Color.MidnightBlue;
             this.articulos_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.articulos_btn.FlatAppearance.BorderSize = 0;
             this.articulos_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -71,7 +71,7 @@ namespace ProyectoBD
             // 
             // pedidos_btn
             // 
-            this.pedidos_btn.BackColor = System.Drawing.Color.PowderBlue;
+            this.pedidos_btn.BackColor = System.Drawing.Color.MidnightBlue;
             this.pedidos_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pedidos_btn.FlatAppearance.BorderSize = 0;
             this.pedidos_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -92,7 +92,7 @@ namespace ProyectoBD
             // 
             // transporte_btn
             // 
-            this.transporte_btn.BackColor = System.Drawing.Color.PowderBlue;
+            this.transporte_btn.BackColor = System.Drawing.Color.MidnightBlue;
             this.transporte_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.transporte_btn.FlatAppearance.BorderSize = 0;
             this.transporte_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -113,7 +113,7 @@ namespace ProyectoBD
             // 
             // locales_btn
             // 
-            this.locales_btn.BackColor = System.Drawing.Color.PowderBlue;
+            this.locales_btn.BackColor = System.Drawing.Color.MidnightBlue;
             this.locales_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.locales_btn.FlatAppearance.BorderSize = 0;
             this.locales_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -134,7 +134,7 @@ namespace ProyectoBD
             // 
             // clientes_btn
             // 
-            this.clientes_btn.BackColor = System.Drawing.Color.PowderBlue;
+            this.clientes_btn.BackColor = System.Drawing.Color.MidnightBlue;
             this.clientes_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.clientes_btn.FlatAppearance.BorderSize = 0;
             this.clientes_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -167,7 +167,7 @@ namespace ProyectoBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PowderBlue;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1309, 665);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.clientes_btn);

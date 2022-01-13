@@ -54,6 +54,7 @@ namespace ProyectoBD.Forms.Clientes
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(397, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(210, 32);
@@ -81,6 +82,7 @@ namespace ProyectoBD.Forms.Clientes
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(186, 111);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(221, 29);
@@ -91,12 +93,14 @@ namespace ProyectoBD.Forms.Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1048, 550);
             this.Controls.Add(this.dgvClientes);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.eliminar_btn);
             this.Controls.Add(this.codigo_tbx);
             this.Controls.Add(this.label3);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "EliminarClientesForm";
             this.Text = "EliminarClientesForm";

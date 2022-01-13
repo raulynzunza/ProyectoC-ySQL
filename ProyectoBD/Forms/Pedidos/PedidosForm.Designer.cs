@@ -39,17 +39,19 @@ namespace ProyectoBD
             // 
             // panelPedidos
             // 
+            this.panelPedidos.BackColor = System.Drawing.Color.MidnightBlue;
             this.panelPedidos.Controls.Add(this.cancelarPedido_btn);
             this.panelPedidos.Controls.Add(this.modificarPedido_btn);
             this.panelPedidos.Controls.Add(this.verPedido_btn);
             this.panelPedidos.Controls.Add(this.ingresarPedido_btn);
             this.panelPedidos.Location = new System.Drawing.Point(0, 0);
             this.panelPedidos.Name = "panelPedidos";
-            this.panelPedidos.Size = new System.Drawing.Size(1099, 601);
+            this.panelPedidos.Size = new System.Drawing.Size(1097, 601);
             this.panelPedidos.TabIndex = 0;
             // 
             // cancelarPedido_btn
             // 
+            this.cancelarPedido_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelarPedido_btn.Location = new System.Drawing.Point(454, 371);
             this.cancelarPedido_btn.Name = "cancelarPedido_btn";
             this.cancelarPedido_btn.Size = new System.Drawing.Size(191, 62);
@@ -60,6 +62,7 @@ namespace ProyectoBD
             // 
             // modificarPedido_btn
             // 
+            this.modificarPedido_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.modificarPedido_btn.Location = new System.Drawing.Point(454, 303);
             this.modificarPedido_btn.Name = "modificarPedido_btn";
             this.modificarPedido_btn.Size = new System.Drawing.Size(191, 62);
@@ -70,6 +73,7 @@ namespace ProyectoBD
             // 
             // verPedido_btn
             // 
+            this.verPedido_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.verPedido_btn.Location = new System.Drawing.Point(454, 235);
             this.verPedido_btn.Name = "verPedido_btn";
             this.verPedido_btn.Size = new System.Drawing.Size(191, 62);
@@ -80,6 +84,7 @@ namespace ProyectoBD
             // 
             // ingresarPedido_btn
             // 
+            this.ingresarPedido_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ingresarPedido_btn.Location = new System.Drawing.Point(454, 167);
             this.ingresarPedido_btn.Name = "ingresarPedido_btn";
             this.ingresarPedido_btn.Size = new System.Drawing.Size(191, 62);
@@ -92,6 +97,7 @@ namespace ProyectoBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1097, 600);
             this.ControlBox = false;
             this.Controls.Add(this.panelPedidos);

@@ -39,7 +39,7 @@ namespace ProyectoBD.Forms
             // 
             // eliminar_btn
             // 
-            this.eliminar_btn.Location = new System.Drawing.Point(627, 502);
+            this.eliminar_btn.Location = new System.Drawing.Point(734, 502);
             this.eliminar_btn.Name = "eliminar_btn";
             this.eliminar_btn.Size = new System.Drawing.Size(148, 47);
             this.eliminar_btn.TabIndex = 27;
@@ -49,7 +49,7 @@ namespace ProyectoBD.Forms
             // 
             // codigo_tbx
             // 
-            this.codigo_tbx.Location = new System.Drawing.Point(344, 136);
+            this.codigo_tbx.Location = new System.Drawing.Point(451, 136);
             this.codigo_tbx.Name = "codigo_tbx";
             this.codigo_tbx.Size = new System.Drawing.Size(118, 22);
             this.codigo_tbx.TabIndex = 25;
@@ -58,7 +58,8 @@ namespace ProyectoBD.Forms
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(110, 129);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(217, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(228, 29);
             this.label3.TabIndex = 21;
@@ -67,10 +68,11 @@ namespace ProyectoBD.Forms
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(308, 42);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(415, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 32);
+            this.label1.Size = new System.Drawing.Size(236, 32);
             this.label1.TabIndex = 28;
             this.label1.Text = "Eliminar articulo";
             // 
@@ -79,7 +81,7 @@ namespace ProyectoBD.Forms
             this.dgvArticulos.AllowUserToAddRows = false;
             this.dgvArticulos.AllowUserToDeleteRows = false;
             this.dgvArticulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvArticulos.Location = new System.Drawing.Point(40, 192);
+            this.dgvArticulos.Location = new System.Drawing.Point(147, 192);
             this.dgvArticulos.Name = "dgvArticulos";
             this.dgvArticulos.ReadOnly = true;
             this.dgvArticulos.RowHeadersWidth = 51;
@@ -91,8 +93,8 @@ namespace ProyectoBD.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(900, 561);
+            this.BackColor = System.Drawing.Color.MidnightBlue;
+            this.ClientSize = new System.Drawing.Size(1027, 561);
             this.Controls.Add(this.dgvArticulos);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.eliminar_btn);

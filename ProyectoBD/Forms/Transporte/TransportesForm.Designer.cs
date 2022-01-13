@@ -45,11 +45,12 @@ namespace ProyectoBD
             this.panelTransporte.Controls.Add(this.ingresarTransporte_btn);
             this.panelTransporte.Location = new System.Drawing.Point(0, 0);
             this.panelTransporte.Name = "panelTransporte";
-            this.panelTransporte.Size = new System.Drawing.Size(1096, 597);
+            this.panelTransporte.Size = new System.Drawing.Size(1099, 597);
             this.panelTransporte.TabIndex = 0;
             // 
             // cancelarTransporte_btn
             // 
+            this.cancelarTransporte_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelarTransporte_btn.Location = new System.Drawing.Point(453, 369);
             this.cancelarTransporte_btn.Name = "cancelarTransporte_btn";
             this.cancelarTransporte_btn.Size = new System.Drawing.Size(191, 62);
@@ -60,6 +61,7 @@ namespace ProyectoBD
             // 
             // modificarTransporte_btn
             // 
+            this.modificarTransporte_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.modificarTransporte_btn.Location = new System.Drawing.Point(453, 301);
             this.modificarTransporte_btn.Name = "modificarTransporte_btn";
             this.modificarTransporte_btn.Size = new System.Drawing.Size(191, 62);
@@ -70,6 +72,7 @@ namespace ProyectoBD
             // 
             // verTransporte_btn
             // 
+            this.verTransporte_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.verTransporte_btn.Location = new System.Drawing.Point(453, 233);
             this.verTransporte_btn.Name = "verTransporte_btn";
             this.verTransporte_btn.Size = new System.Drawing.Size(191, 62);
@@ -80,6 +83,7 @@ namespace ProyectoBD
             // 
             // ingresarTransporte_btn
             // 
+            this.ingresarTransporte_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ingresarTransporte_btn.Location = new System.Drawing.Point(453, 165);
             this.ingresarTransporte_btn.Name = "ingresarTransporte_btn";
             this.ingresarTransporte_btn.Size = new System.Drawing.Size(191, 62);
@@ -92,6 +96,7 @@ namespace ProyectoBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1097, 600);
             this.ControlBox = false;
             this.Controls.Add(this.panelTransporte);

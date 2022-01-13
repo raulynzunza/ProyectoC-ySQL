@@ -70,30 +70,33 @@ namespace ProyectoBD.Forms.Transporte
             // label
             // 
             this.label.AutoSize = true;
-            this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label.Location = new System.Drawing.Point(152, 271);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(202, 29);
+            this.label.Size = new System.Drawing.Size(181, 25);
             this.label.TabIndex = 32;
             this.label.Text = "Apellido materno:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Location = new System.Drawing.Point(152, 317);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(189, 29);
+            this.label6.Size = new System.Drawing.Size(169, 25);
             this.label6.TabIndex = 30;
             this.label6.Text = "Codigo de local:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(152, 225);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(196, 29);
+            this.label3.Size = new System.Drawing.Size(176, 25);
             this.label3.TabIndex = 26;
             this.label3.Text = "Apellido paterno:";
             // 
@@ -107,10 +110,11 @@ namespace ProyectoBD.Forms.Transporte
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(152, 179);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 29);
+            this.label2.Size = new System.Drawing.Size(94, 25);
             this.label2.TabIndex = 24;
             this.label2.Text = "Nombre:";
             // 
@@ -125,20 +129,22 @@ namespace ProyectoBD.Forms.Transporte
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(152, 133);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 29);
+            this.label1.Size = new System.Drawing.Size(221, 25);
             this.label1.TabIndex = 22;
             this.label1.Text = "Codigo de transporte:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(298, 51);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(338, 32);
+            this.label5.Size = new System.Drawing.Size(363, 32);
             this.label5.TabIndex = 21;
             this.label5.Text = "Ingresar nuevo transporte";
             // 
@@ -154,6 +160,7 @@ namespace ProyectoBD.Forms.Transporte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(911, 549);
             this.Controls.Add(this.codigoLocal_cbx);
             this.Controls.Add(this.agregarTransporte_btn);

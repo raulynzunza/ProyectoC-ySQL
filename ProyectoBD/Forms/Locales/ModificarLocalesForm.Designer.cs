@@ -61,10 +61,11 @@ namespace ProyectoBD.Forms.Locales
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Location = new System.Drawing.Point(36, 190);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 29);
+            this.label6.Size = new System.Drawing.Size(94, 25);
             this.label6.TabIndex = 48;
             this.label6.Text = "Nombre:";
             // 
@@ -85,30 +86,33 @@ namespace ProyectoBD.Forms.Locales
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(36, 241);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 29);
+            this.label4.Size = new System.Drawing.Size(109, 25);
             this.label4.TabIndex = 43;
             this.label4.Text = "Direccion:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(36, 145);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(189, 29);
+            this.label3.Size = new System.Drawing.Size(169, 25);
             this.label3.TabIndex = 42;
             this.label3.Text = "Codigo de local:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(293, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(198, 32);
+            this.label1.Size = new System.Drawing.Size(213, 32);
             this.label1.TabIndex = 39;
             this.label1.Text = "Modificar local";
             // 
@@ -126,6 +130,7 @@ namespace ProyectoBD.Forms.Locales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1075, 477);
             this.Controls.Add(this.modificar_btn);
             this.Controls.Add(this.dgvLocales);

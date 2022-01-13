@@ -27,7 +27,7 @@ namespace ProyectoBD.Forms.Transporte
             codigoTransporte_cbx.DataSource = metodo.CargarCombo("TRANSPORTE","cod_trans");
             codigoTransporte_cbx.DisplayMember = "cod_trans";
             codigoTransporte_cbx.ValueMember = "cod_trans";
-            string consulta = "SELECT cod_trans AS 'Codigo de transporte',codigo_local AS 'Codigo de local', nombre_cond AS 'Nombre de conductor' FROM TRANSPORTE ORDER BY cod_trans ASC";
+            string consulta = "SELECT * FROM VISTA2";
             SqlDataAdapter adaptador = new SqlDataAdapter(consulta, conexion.Conectar());
             DataTable tabla = new DataTable();
             adaptador.Fill(tabla);
@@ -46,7 +46,7 @@ namespace ProyectoBD.Forms.Transporte
                 try
                 {
                     metodo.Modificar(nombre_tbx.Text,apellidoPaterno_tbx.Text,apellidoMaterno_tbx.Text,Convert.ToInt32(codigoTransporte_cbx.SelectedValue),Convert.ToInt32(codigoLocal_cbx.SelectedValue));
-                    string consulta = "SELECT cod_trans AS 'Codigo de transporte',codigo_local AS 'Codigo de local', nombre_cond AS 'Nombre de conductor' FROM TRANSPORTE ORDER BY cod_trans ASC";
+                    string consulta = "SELECT * FROM VISTA2";
                     SqlDataAdapter adaptador = new SqlDataAdapter(consulta, conexion.Conectar());
                     DataTable tabla = new DataTable();
                     adaptador.Fill(tabla);

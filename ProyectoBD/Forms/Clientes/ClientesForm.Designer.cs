@@ -39,17 +39,20 @@ namespace ProyectoBD
             // 
             // panelClientes
             // 
+            this.panelClientes.BackColor = System.Drawing.Color.MidnightBlue;
             this.panelClientes.Controls.Add(this.eliminarCliente_btn);
             this.panelClientes.Controls.Add(this.modificarClientes_btn);
             this.panelClientes.Controls.Add(this.verClientes_btn);
             this.panelClientes.Controls.Add(this.ingresarCliente_btn);
             this.panelClientes.Location = new System.Drawing.Point(0, 1);
             this.panelClientes.Name = "panelClientes";
-            this.panelClientes.Size = new System.Drawing.Size(1098, 599);
+            this.panelClientes.Size = new System.Drawing.Size(1090, 599);
             this.panelClientes.TabIndex = 0;
             // 
             // eliminarCliente_btn
             // 
+            this.eliminarCliente_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eliminarCliente_btn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.eliminarCliente_btn.Location = new System.Drawing.Point(454, 370);
             this.eliminarCliente_btn.Name = "eliminarCliente_btn";
             this.eliminarCliente_btn.Size = new System.Drawing.Size(191, 62);
@@ -60,6 +63,8 @@ namespace ProyectoBD
             // 
             // modificarClientes_btn
             // 
+            this.modificarClientes_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modificarClientes_btn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.modificarClientes_btn.Location = new System.Drawing.Point(454, 302);
             this.modificarClientes_btn.Name = "modificarClientes_btn";
             this.modificarClientes_btn.Size = new System.Drawing.Size(191, 62);
@@ -70,6 +75,8 @@ namespace ProyectoBD
             // 
             // verClientes_btn
             // 
+            this.verClientes_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.verClientes_btn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.verClientes_btn.Location = new System.Drawing.Point(454, 234);
             this.verClientes_btn.Name = "verClientes_btn";
             this.verClientes_btn.Size = new System.Drawing.Size(191, 62);
@@ -80,6 +87,8 @@ namespace ProyectoBD
             // 
             // ingresarCliente_btn
             // 
+            this.ingresarCliente_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ingresarCliente_btn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ingresarCliente_btn.Location = new System.Drawing.Point(454, 166);
             this.ingresarCliente_btn.Name = "ingresarCliente_btn";
             this.ingresarCliente_btn.Size = new System.Drawing.Size(191, 62);
@@ -92,7 +101,8 @@ namespace ProyectoBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1097, 600);
+            this.BackColor = System.Drawing.Color.MidnightBlue;
+            this.ClientSize = new System.Drawing.Size(1091, 600);
             this.ControlBox = false;
             this.Controls.Add(this.panelClientes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

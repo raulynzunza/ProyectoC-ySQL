@@ -46,50 +46,55 @@ namespace ProyectoBD
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(126, 145);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 29);
+            this.label1.Size = new System.Drawing.Size(100, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre: ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(126, 240);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 29);
+            this.label2.Size = new System.Drawing.Size(86, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Precio: ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(126, 291);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(228, 29);
+            this.label3.Size = new System.Drawing.Size(205, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Codigo del articulo: ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(126, 342);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(153, 29);
+            this.label4.Size = new System.Drawing.Size(138, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Descripcion: ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(381, 38);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(303, 32);
+            this.label5.Size = new System.Drawing.Size(326, 32);
             this.label5.TabIndex = 4;
             this.label5.Text = "Ingresar nuevo articulo";
             // 
@@ -109,7 +114,7 @@ namespace ProyectoBD
             // 
             // codigo_tbx
             // 
-            this.codigo_tbx.Location = new System.Drawing.Point(361, 298);
+            this.codigo_tbx.Location = new System.Drawing.Point(361, 295);
             this.codigo_tbx.Name = "codigo_tbx";
             this.codigo_tbx.ReadOnly = true;
             this.codigo_tbx.Size = new System.Drawing.Size(118, 22);
@@ -117,7 +122,7 @@ namespace ProyectoBD
             // 
             // descripcion_tbx
             // 
-            this.descripcion_tbx.Location = new System.Drawing.Point(361, 326);
+            this.descripcion_tbx.Location = new System.Drawing.Point(361, 342);
             this.descripcion_tbx.Multiline = true;
             this.descripcion_tbx.Name = "descripcion_tbx";
             this.descripcion_tbx.Size = new System.Drawing.Size(262, 159);
@@ -136,10 +141,11 @@ namespace ProyectoBD
             // cantidad
             // 
             this.cantidad.AutoSize = true;
-            this.cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cantidad.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cantidad.Location = new System.Drawing.Point(126, 191);
             this.cantidad.Name = "cantidad";
-            this.cantidad.Size = new System.Drawing.Size(115, 29);
+            this.cantidad.Size = new System.Drawing.Size(106, 25);
             this.cantidad.TabIndex = 10;
             this.cantidad.Text = "Cantidad:";
             // 
@@ -154,7 +160,7 @@ namespace ProyectoBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PowderBlue;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1095, 597);
             this.Controls.Add(this.cantidad_tbx);
             this.Controls.Add(this.cantidad);

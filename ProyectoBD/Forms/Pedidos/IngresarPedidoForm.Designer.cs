@@ -60,7 +60,9 @@ namespace ProyectoBD.Forms.Pedidos
             // label
             // 
             this.label.AutoSize = true;
+            this.label.BackColor = System.Drawing.Color.MidnightBlue;
             this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label.Location = new System.Drawing.Point(11, 297);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(222, 29);
@@ -70,7 +72,9 @@ namespace ProyectoBD.Forms.Pedidos
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.MidnightBlue;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Location = new System.Drawing.Point(11, 343);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(86, 29);
@@ -80,7 +84,9 @@ namespace ProyectoBD.Forms.Pedidos
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.MidnightBlue;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(11, 251);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(246, 29);
@@ -90,7 +96,9 @@ namespace ProyectoBD.Forms.Pedidos
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.MidnightBlue;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(11, 205);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(209, 29);
@@ -108,7 +116,9 @@ namespace ProyectoBD.Forms.Pedidos
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.MidnightBlue;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(11, 159);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(214, 29);
@@ -118,7 +128,9 @@ namespace ProyectoBD.Forms.Pedidos
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.MidnightBlue;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(128, 73);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(297, 32);
@@ -128,7 +140,9 @@ namespace ProyectoBD.Forms.Pedidos
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.MidnightBlue;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(11, 391);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(115, 29);
@@ -190,6 +204,7 @@ namespace ProyectoBD.Forms.Pedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1046, 601);
             this.Controls.Add(this.dgvPedidos);
             this.Controls.Add(this.fecha_dt);

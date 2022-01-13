@@ -48,6 +48,7 @@ namespace ProyectoBD.Forms.Locales
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(435, 70);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(212, 32);
@@ -58,6 +59,7 @@ namespace ProyectoBD.Forms.Locales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1075, 615);
             this.Controls.Add(this.dgvLocales);
             this.Controls.Add(this.label5);

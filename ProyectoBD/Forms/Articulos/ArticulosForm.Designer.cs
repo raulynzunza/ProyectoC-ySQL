@@ -39,9 +39,11 @@ namespace ProyectoBD
             // 
             // ingresarArt_btn
             // 
-            this.ingresarArt_btn.Location = new System.Drawing.Point(432, 165);
+            this.ingresarArt_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ingresarArt_btn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ingresarArt_btn.Location = new System.Drawing.Point(440, 165);
             this.ingresarArt_btn.Name = "ingresarArt_btn";
-            this.ingresarArt_btn.Size = new System.Drawing.Size(191, 62);
+            this.ingresarArt_btn.Size = new System.Drawing.Size(180, 62);
             this.ingresarArt_btn.TabIndex = 0;
             this.ingresarArt_btn.Text = "Ingresar articulo";
             this.ingresarArt_btn.UseVisualStyleBackColor = true;
@@ -49,9 +51,11 @@ namespace ProyectoBD
             // 
             // verArt_btn
             // 
-            this.verArt_btn.Location = new System.Drawing.Point(432, 233);
+            this.verArt_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.verArt_btn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.verArt_btn.Location = new System.Drawing.Point(440, 233);
             this.verArt_btn.Name = "verArt_btn";
-            this.verArt_btn.Size = new System.Drawing.Size(191, 62);
+            this.verArt_btn.Size = new System.Drawing.Size(180, 62);
             this.verArt_btn.TabIndex = 1;
             this.verArt_btn.Text = "Ver articulos";
             this.verArt_btn.UseVisualStyleBackColor = true;
@@ -59,21 +63,23 @@ namespace ProyectoBD
             // 
             // panelInfo
             // 
-            this.panelInfo.BackColor = System.Drawing.Color.PowderBlue;
+            this.panelInfo.BackColor = System.Drawing.Color.MidnightBlue;
             this.panelInfo.Controls.Add(this.eliminarArt_btn);
             this.panelInfo.Controls.Add(this.modificarArt_btn);
             this.panelInfo.Controls.Add(this.verArt_btn);
             this.panelInfo.Controls.Add(this.ingresarArt_btn);
             this.panelInfo.Location = new System.Drawing.Point(2, 3);
             this.panelInfo.Name = "panelInfo";
-            this.panelInfo.Size = new System.Drawing.Size(1095, 598);
+            this.panelInfo.Size = new System.Drawing.Size(1093, 598);
             this.panelInfo.TabIndex = 2;
             // 
             // eliminarArt_btn
             // 
-            this.eliminarArt_btn.Location = new System.Drawing.Point(432, 369);
+            this.eliminarArt_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eliminarArt_btn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.eliminarArt_btn.Location = new System.Drawing.Point(440, 369);
             this.eliminarArt_btn.Name = "eliminarArt_btn";
-            this.eliminarArt_btn.Size = new System.Drawing.Size(191, 62);
+            this.eliminarArt_btn.Size = new System.Drawing.Size(180, 62);
             this.eliminarArt_btn.TabIndex = 3;
             this.eliminarArt_btn.Text = "Eliminar articulo";
             this.eliminarArt_btn.UseVisualStyleBackColor = true;
@@ -81,9 +87,11 @@ namespace ProyectoBD
             // 
             // modificarArt_btn
             // 
-            this.modificarArt_btn.Location = new System.Drawing.Point(432, 301);
+            this.modificarArt_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modificarArt_btn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.modificarArt_btn.Location = new System.Drawing.Point(440, 301);
             this.modificarArt_btn.Name = "modificarArt_btn";
-            this.modificarArt_btn.Size = new System.Drawing.Size(191, 62);
+            this.modificarArt_btn.Size = new System.Drawing.Size(180, 62);
             this.modificarArt_btn.TabIndex = 2;
             this.modificarArt_btn.Text = "Modificar articulo existente";
             this.modificarArt_btn.UseVisualStyleBackColor = true;
@@ -93,7 +101,7 @@ namespace ProyectoBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PowderBlue;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1097, 600);
             this.ControlBox = false;
             this.Controls.Add(this.panelInfo);

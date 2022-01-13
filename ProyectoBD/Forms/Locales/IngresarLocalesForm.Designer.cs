@@ -59,10 +59,11 @@ namespace ProyectoBD.Forms.Locales
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Location = new System.Drawing.Point(262, 298);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 29);
+            this.label6.Size = new System.Drawing.Size(131, 29);
             this.label6.TabIndex = 30;
             this.label6.Text = "Direccion:";
             // 
@@ -76,10 +77,11 @@ namespace ProyectoBD.Forms.Locales
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(263, 247);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 29);
+            this.label2.Size = new System.Drawing.Size(114, 29);
             this.label2.TabIndex = 24;
             this.label2.Text = "Nombre:";
             // 
@@ -94,20 +96,22 @@ namespace ProyectoBD.Forms.Locales
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(263, 196);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 29);
+            this.label1.Size = new System.Drawing.Size(205, 29);
             this.label1.TabIndex = 22;
             this.label1.Text = "Codigo de local:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(375, 50);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(270, 32);
+            this.label5.Size = new System.Drawing.Size(290, 32);
             this.label5.TabIndex = 21;
             this.label5.Text = "Ingresar nuevo local";
             // 
@@ -115,6 +119,7 @@ namespace ProyectoBD.Forms.Locales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(984, 513);
             this.Controls.Add(this.agregarLocales_btn);
             this.Controls.Add(this.direccion_tbx);

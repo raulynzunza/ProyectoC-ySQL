@@ -47,10 +47,11 @@ namespace ProyectoBD.Forms.Transporte
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(393, 66);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(264, 32);
+            this.label5.Size = new System.Drawing.Size(284, 32);
             this.label5.TabIndex = 8;
             this.label5.Text = "Lista de transportes";
             // 
@@ -58,9 +59,11 @@ namespace ProyectoBD.Forms.Transporte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1075, 615);
             this.Controls.Add(this.dgvTransportes);
             this.Controls.Add(this.label5);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "VerTransporteForm";
             this.Text = "VerTransporteForm";
