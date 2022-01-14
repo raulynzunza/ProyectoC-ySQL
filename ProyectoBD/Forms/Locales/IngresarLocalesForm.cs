@@ -45,6 +45,9 @@ namespace ProyectoBD.Forms.Locales
                             codigo_tbx.Clear();
                             direccion_tbx.Clear();                                                        
                             MessageBox.Show("Local agregado correctamente");
+                            Random numero = new Random();
+                            int var = numero.Next(100000, 999999);
+                            codigo_tbx.Text = Convert.ToString(var);
                         }
                         catch
                         {

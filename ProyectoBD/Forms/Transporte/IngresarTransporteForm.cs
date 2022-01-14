@@ -49,6 +49,9 @@ namespace ProyectoBD.Forms.Transporte
                             apellidoPaterno_tbx.Clear();
                             codigoLocal_cbx.Refresh();
                             MessageBox.Show("Transporte agregado correctamente");
+                            Random numero = new Random();
+                            int var = numero.Next(10000000, 99999999);
+                            codigo_tbx.Text = Convert.ToString(var);
                         }
                         catch
                         {

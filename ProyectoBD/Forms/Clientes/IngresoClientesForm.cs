@@ -49,6 +49,9 @@ namespace ProyectoBD.Forms.Clientes
                             telefono_tbx.Clear();
                             email_tbx.Clear();
                             MessageBox.Show("Cliente agregado correctamente");
+                            Random numero = new Random();
+                            int var = numero.Next(1000000, 9999999);
+                            codigo_tbx.Text = Convert.ToString(var);
                         }
                         catch
                         {

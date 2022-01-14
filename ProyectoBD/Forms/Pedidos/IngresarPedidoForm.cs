@@ -62,6 +62,9 @@ namespace ProyectoBD.Forms.Pedidos
                             metodo.Insertar(Convert.ToInt32(codigo_tbx.Text), Convert.ToInt32(codigoCliente_cbx.Text), Convert.ToInt32(codigoTransporte_cbx.Text), Convert.ToInt32(codigoArticulo_cbx.Text), fecha_dt.Value.Date.ToString("yyy-MM-dd"),Convert.ToInt32(cantidad_tbx.Text));
                             cantidad_tbx.Clear();
                             MessageBox.Show("Pedido agregado correctamente");
+                            Random numero = new Random();
+                            int var = numero.Next(10000, 99999);
+                            codigo_tbx.Text = Convert.ToString(var);
                         }
                         catch
                         {

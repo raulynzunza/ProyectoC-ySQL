@@ -36,6 +36,9 @@ namespace ProyectoBD
                             descripcion_tbx.Clear();
                             cantidad_tbx.Clear();
                             MessageBox.Show("Articulo agregado correctamente");
+                            Random numero = new Random();
+                            int var = numero.Next(1000, 9999);
+                            codigo_tbx.Text = Convert.ToString(var);
                         }
                         catch
                         {
