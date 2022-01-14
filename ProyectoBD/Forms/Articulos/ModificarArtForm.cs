@@ -53,7 +53,7 @@ namespace ProyectoBD.Forms
 
         private void ModificarArtForm_Load(object sender, EventArgs e)
         {
-            string consulta = "SELECT codigo_art AS 'Codigo de articulo',nombre AS 'Nombre de articulo',precio AS 'Precio' FROM ARTICULO ORDER BY codigo_art ASC";
+            string consulta = "SELECT * FROM VISTA4";
             SqlDataAdapter adaptador = new SqlDataAdapter(consulta, conexion.Conectar());
             DataTable tabla = new DataTable();
             adaptador.Fill(tabla);
